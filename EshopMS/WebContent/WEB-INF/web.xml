@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <display-name></display-name>
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>LoginCheckServlet</servlet-name>
+    <servlet-class>com.servlet.login.LoginCheckServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetUsersInfoServlet</servlet-name>
+    <servlet-class>com.servlet.users.GetUsersInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetUserInfoByIDServlet</servlet-name>
+    <servlet-class>com.servlet.users.GetUserInfoByIDServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateUserInfoServlet</servlet-name>
+    <servlet-class>com.servlet.users.UpdateUserInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteUserInfoServlet</servlet-name>
+    <servlet-class>com.servlet.users.DeleteUserInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SearchUserInfoByIdServlet</servlet-name>
+    <servlet-class>com.servlet.users.SearchUserInfoByIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetGoodsClassInfoServlet</servlet-name>
+    <servlet-class>com.servlet.goodsClass.GetGoodsClassInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetGoodsClassInfoByIdServlet</servlet-name>
+    <servlet-class>com.servlet.goodsClass.GetGoodsClassInfoByIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateGoodsClassServlet</servlet-name>
+    <servlet-class>com.servlet.goodsClass.UpdateGoodsClassServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteGoodsClassServlet</servlet-name>
+    <servlet-class>com.servlet.goodsClass.DeleteGoodsClassServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddGoodsClassServlet</servlet-name>
+    <servlet-class>com.servlet.goodsClass.AddGoodsClassServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetOrderFormServlet</servlet-name>
+    <servlet-class>com.servlet.orderForm.GetOrderFormServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetOrderFormByIdServlet</servlet-name>
+    <servlet-class>com.servlet.orderForm.GetOrderFormByIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteOrderForm</servlet-name>
+    <servlet-class>com.servlet.orderForm.DeleteOrderForm</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateOrderFormServlet</servlet-name>
+    <servlet-class>com.servlet.orderForm.UpdateOrderFormServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetGoodsInfoServlet</servlet-name>
+    <servlet-class>com.servlet.goods.GetGoodsInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetGoodsInfoByIdServlet</servlet-name>
+    <servlet-class>com.servlet.goods.GetGoodsInfoByIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateGoodsInfoServlet</servlet-name>
+    <servlet-class>com.servlet.goods.UpdateGoodsInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteGoodsInfoServlet</servlet-name>
+    <servlet-class>com.servlet.goods.DeleteGoodsInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChangePwdServlet</servlet-name>
+    <servlet-class>com.servlet.admin.ChangePwdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetManagerInfoServlet</servlet-name>
+    <servlet-class>com.servlet.admin.GetManagerInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetPasswordServlet</servlet-name>
+    <servlet-class>com.servlet.admin.GetPasswordServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetNoticeServlet</servlet-name>
+    <servlet-class>com.servlet.notice.GetNoticeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetNoticeByIdServlet</servlet-name>
+    <servlet-class>com.servlet.notice.GetNoticeByIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateNoticeServlet</servlet-name>
+    <servlet-class>com.servlet.notice.UpdateNoticeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteNoticeServlet</servlet-name>
+    <servlet-class>com.servlet.notice.DeleteNoticeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddNoticeServlet</servlet-name>
+    <servlet-class>com.servlet.notice.AddNoticeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddGoodsInfoServlet</servlet-name>
+    <servlet-class>com.servlet.goods.AddGoodsInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetGoodsClassServlet</servlet-name>
+    <servlet-class>com.servlet.goods.GetGoodsClassServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UploadServlet</servlet-name>
+    <servlet-class>com.servlet.upload.UploadServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>LoginCheckServlet</servlet-name>
+    <url-pattern>/servlet/LoginCheckServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetUsersInfoServlet</servlet-name>
+    <url-pattern>/servlet/GetUsersInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetUserInfoByIDServlet</servlet-name>
+    <url-pattern>/servlet/GetUserInfoByIDServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateUserInfoServlet</servlet-name>
+    <url-pattern>/servlet/UpdateUserInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteUserInfoServlet</servlet-name>
+    <url-pattern>/servlet/DeleteUserInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchUserInfoByIdServlet</servlet-name>
+    <url-pattern>/servlet/SearchUserInfoByIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetGoodsClassInfoServlet</servlet-name>
+    <url-pattern>/servlet/GetGoodsClassInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetGoodsClassInfoByIdServlet</servlet-name>
+    <url-pattern>/servlet/GetGoodsClassInfoByIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateGoodsClassServlet</servlet-name>
+    <url-pattern>/servlet/UpdateGoodsClassServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteGoodsClassServlet</servlet-name>
+    <url-pattern>/servlet/DeleteGoodsClassServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddGoodsClassServlet</servlet-name>
+    <url-pattern>/servlet/AddGoodsClassServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetOrderFormServlet</servlet-name>
+    <url-pattern>/servlet/GetOrderFormServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetOrderFormByIdServlet</servlet-name>
+    <url-pattern>/servlet/GetOrderFormByIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteOrderForm</servlet-name>
+    <url-pattern>/servlet/DeleteOrderForm</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateOrderFormServlet</servlet-name>
+    <url-pattern>/servlet/UpdateOrderFormServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetGoodsInfoServlet</servlet-name>
+    <url-pattern>/servlet/GetGoodsInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetGoodsInfoByIdServlet</servlet-name>
+    <url-pattern>/servlet/GetGoodsInfoByIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateGoodsInfoServlet</servlet-name>
+    <url-pattern>/servlet/UpdateGoodsInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteGoodsInfoServlet</servlet-name>
+    <url-pattern>/servlet/DeleteGoodsInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangePwdServlet</servlet-name>
+    <url-pattern>/servlet/ChangePwdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetManagerInfoServlet</servlet-name>
+    <url-pattern>/servlet/GetManagerInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetPasswordServlet</servlet-name>
+    <url-pattern>/servlet/GetPasswordServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetNoticeServlet</servlet-name>
+    <url-pattern>/servlet/GetNoticeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetNoticeByIdServlet</servlet-name>
+    <url-pattern>/servlet/GetNoticeByIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateNoticeServlet</servlet-name>
+    <url-pattern>/servlet/UpdateNoticeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteNoticeServlet</servlet-name>
+    <url-pattern>/servlet/DeleteNoticeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddNoticeServlet</servlet-name>
+    <url-pattern>/servlet/AddNoticeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddGoodsInfoServlet</servlet-name>
+    <url-pattern>/servlet/AddGoodsInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetGoodsClassServlet</servlet-name>
+    <url-pattern>/servlet/GetGoodsClassServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadServlet</servlet-name>
+    <url-pattern>/servlet/UploadServlet</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

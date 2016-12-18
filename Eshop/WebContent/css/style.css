@@ -1,0 +1,31 @@
+dl,dd,dt,ul,li{ 
+margin:0; 
+padding:0; 
+list-style:none; 
+color:#333;} 
+#tree{ 
+width:200px; 
+text-align:center; 
+font-size:12px;
+border-left:1px solid #dedede; 
+border-right:1px solid #dedede; 
+border-bottom:1px solid #dedede;
+height:360px;
+font-family: 隶书;
+} 
+#tree  dd dl dt{ 
+border-top:1px solid #dedede; 
+background:#f2f2f2; height:25px; 
+line-height:25px; font-weight:bold;
+background: #99ccff;
+}
+
+#tree ul{ 
+background:#f9f9f9; 
+} 
+#tree li{ 
+border-top:1px solid #efefef; 
+line-height:25px; 
+}
+
+
